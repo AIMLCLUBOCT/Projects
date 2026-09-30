@@ -21,4 +21,4 @@
 ---
 
 ## 🛠️ Contribution Guidelines
-To propose an experimental benchmark or paper replication study, please refer to the [Research Roadmap](../../learning_resources/00-roadmap/research-roadmap.md) and open an issue in this repository.
+To propose an experimental benchmark or paper replication study, please refer to the [Research Roadmap](https://github.com/AIMLCLUBOCT/learning_resources/blob/main/00-roadmap/research-roadmap.md) and open an issue in this repository.
