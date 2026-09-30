@@ -47,7 +47,7 @@ Browse projects by difficulty level:
 - **Tech Stack:** Python, Pandas, Scikit-Learn, Streamlit
 - **Difficulty:** Beginner
 - **Status:** 🟢 Blueprint Available
-- **Blueprint:** [`beginner/student-performance-predictor`](./beginner/)
+- **Blueprint:** [`beginner/student-performance-predictor`](./beginner/student-performance-predictor/)
 
 ### 3. Real-Time Safety Equipment & Helmet Detection
 - **Problem:** Ensuring workplace and two-wheeler safety compliance on campus grounds.
@@ -56,7 +56,7 @@ Browse projects by difficulty level:
 - **Tech Stack:** Python, OpenCV, Ultralytics YOLO, PyTorch
 - **Difficulty:** Intermediate
 - **Status:** 🟢 Blueprint Available
-- **Blueprint:** [`intermediate/safety-helmet-detector`](./intermediate/)
+- **Blueprint:** [`intermediate/safety-helmet-detector`](./intermediate/safety-helmet-detector/)
 
 ### 4. Campus Ordinance & Syllabus RAG Assistant
 - **Problem:** Navigating dense 100+ page university ordinances, grading criteria, and semester course catalogs is time-consuming for students.
@@ -65,7 +65,7 @@ Browse projects by difficulty level:
 - **Tech Stack:** Python, LangChain, ChromaDB, Hugging Face Embeddings, Streamlit
 - **Difficulty:** Advanced
 - **Status:** 🟢 Blueprint Available
-- **Blueprint:** [`advanced/campus-rag-assistant`](./advanced/)
+- **Blueprint:** [`advanced/campus-rag-assistant`](./advanced/campus-rag-assistant/)
 
 ---
 
