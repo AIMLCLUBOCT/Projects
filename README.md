@@ -4,6 +4,7 @@
 
 [![AIML Club OCT](https://img.shields.io/badge/AIML_Club-OCT_Bhopal-0052CC?style=flat-square)](https://aimlcluboct.in)
 [![Projects: Active](https://img.shields.io/badge/Status-Active_Development-brightgreen.svg?style=flat-square)](#)
+[![Roadmap Board](https://img.shields.io/badge/Roadmap-Live_Kanban_Board-blueviolet.svg?style=flat-square)](https://github.com/orgs/AIMLCLUBOCT/projects/2)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-orange.svg?style=flat-square)](./CONTRIBUTING.md)
 
 ---
