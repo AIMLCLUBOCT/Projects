@@ -1,0 +1,39 @@
+name: Community Automation
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcome Contributor
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const isPR = !!context.payload.pull_request;
+            const author = context.actor;
+            
+            // Skip automated bot accounts
+            if (author.endsWith('[bot]') || author === 'github-actions') return;
+            
+            let message = '';
+            if (isPR) {
+              message = `### 🎉 Thank you for your Pull Request, @${author}!\n\nWelcome to **AIML Club OCT**! 🚀\n\nA maintainer will review your code shortly. In the meantime:\n- 📋 Please ensure your branch follows our [Contributing Guide](https://github.com/AIMLCLUBOCT/Projects/blob/main/CONTRIBUTING.md).\n- 💬 Showcase your work or ask questions in our [Student Project Showcase](https://github.com/AIMLCLUBOCT/Projects/discussions/3).\n- 📌 Track ongoing milestones on our [Roadmap Board](https://github.com/orgs/AIMLCLUBOCT/projects/2).\n\nHappy coding! 💻✨`;
+            } else {
+              message = `### 👋 Hi @${author}, thanks for opening an issue!\n\nWelcome to **AIML Club OCT**! We appreciate you helping improve our project ecosystem.\n\n- Our team will review this shortly.\n- If you would like to work on this issue yourself, reply below and we can assign it to you!\n- Check out our [Roadmap Board](https://github.com/orgs/AIMLCLUBOCT/projects/2) for other active initiatives.\n\nHappy building! 🚀`;
+            }
+            
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: message
+            });
