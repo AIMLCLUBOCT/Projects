@@ -1,0 +1,38 @@
+name: CI - Projects Validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Verify Python Syntax
+        run: |
+          python -m py_compile $(find . -name "*.py" -not -path "*/.*")
+          echo "All Python scripts compiled successfully!"
+
+      - name: Secret Scanning Check
+        run: |
+          python -c "
+          import os, glob, re
+          secret_patterns = [r'(?i)api[_-]?key\s*[:=]\s*[\'\"][a-zA-Z0-9_\-]{20,}[\'\"]', r'ghp_[a-zA-Z0-9]{36}']
+          for path in glob.glob('**/*.py', recursive=True) + glob.glob('**/*.md', recursive=True):
+              with open(path, 'r', encoding='utf-8', errors='ignore') as f:
+                  content = f.read()
+                  for pattern in secret_patterns:
+                      if re.search(pattern, content):
+                          raise ValueError(f'Potential secret pattern detected in {path}')
+          print('Security scan clean! No exposed credentials found.')
+          "
