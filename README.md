@@ -99,6 +99,8 @@ Have you built an interesting AI/ML project during a college hackathon, club wor
 4. Open a Pull Request for review by the technical maintainers.
 
 > 💬 **Want feedback first?** You can share your project demo, link, or prototype directly in our [**Student Project Showcase Discussion Panel**](https://github.com/AIMLCLUBOCT/Projects/discussions/3) to get feedback from club seniors!
+>
+> 🌐 **Frontier Engineering Discussion:** Brainstorm architectures on our [**Autonomous Multi-Agent Swarms & Local Edge AI Forum ↗**](https://github.com/AIMLCLUBOCT/Projects/discussions/4)!
 
 ---
 
