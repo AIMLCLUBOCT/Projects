@@ -24,11 +24,33 @@ Before submitting a project, ensure it satisfies these minimum quality standards
 
 ---
 
-## Submission Steps
+## 🚀 Fast-Track: Solve a "Good First Issue"
+Don't have a project yet? You can still make your first open-source contribution today by solving one of our pre-seeded beginner issues:
+- 📌 [**Issue #1: Add interactive Streamlit UI to student-performance-predictor**](https://github.com/AIMLCLUBOCT/Projects/issues/1)
+- 📌 [**Issue #2: Add real-time webcam inference loop to safety-helmet-detector**](https://github.com/AIMLCLUBOCT/Projects/issues/2)
 
-1. Fork the `Projects` repository.
-2. Create a branch: `git checkout -b feat/add-[project-name]`.
-3. Add your project under the appropriate directory (`beginner/`, `intermediate/`, `advanced/`, or `research/`).
-4. Update the main [`Projects/README.md`](./README.md) table to add your project card.
-5. Commit and push your changes.
-6. Open a Pull Request referencing your issue or project proposal.
+---
+
+## 🛠️ Step-by-Step Submission Guide
+
+```bash
+# 1. Fork the repo on GitHub, then clone your fork locally:
+git clone https://github.com/[YOUR-USERNAME]/Projects.git
+cd Projects
+
+# 2. Create a clean feature branch:
+git checkout -b feat/my-new-contribution
+
+# 3. Add your code, project folder, or bugfix:
+# Follow the structure in templates/PROJECT_TEMPLATE.md
+
+# 4. Stage, commit, and push:
+git add .
+git commit -m "feat: add [project-name] starter implementation"
+git push origin feat/my-new-contribution
+
+# 5. Open your Pull Request on GitHub:
+# Navigate to https://github.com/AIMLCLUBOCT/Projects and click "Compare & pull request"
+```
+
+Once submitted, club maintainers will review your PR, suggest any optimizations, and merge your work into the official repository! 🌟
