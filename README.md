@@ -97,6 +97,8 @@ Have you built an interesting AI/ML project during a college hackathon, club wor
 3. Ensure your project directory contains a clean `README.md`, `requirements.txt`, and clear setup instructions.
 4. Open a Pull Request for review by the technical maintainers.
 
+> 💬 **Want feedback first?** You can share your project demo, link, or prototype directly in our [**Student Project Showcase Discussion Panel**](https://github.com/AIMLCLUBOCT/Projects/discussions/3) to get feedback from club seniors!
+
 ---
 
 ## 🌐 Connect with the Community
