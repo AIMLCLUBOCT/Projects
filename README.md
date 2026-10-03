@@ -9,7 +9,8 @@
 <br/><br/>
 
 [![Live Web Portal](https://img.shields.io/badge/Web_Portal-aimlcluboct.github.io-00F5FF?style=for-the-badge&logo=githubpages&logoColor=black)](https://aimlcluboct.github.io/#projects)
-[![AIML Club OCT](https://img.shields.io/badge/AIML_Club-OCT_Bhopal-0052CC?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aimlcluboct.in)
+[![Live Activities](https://img.shields.io/badge/Live_Activities-Student_Radar-FF6B6B?style=for-the-badge&logo=rss)](https://aimlcluboct.github.io/#activities)
+[![AI & Machine Learning Club](https://img.shields.io/badge/AI_%26_ML_Club-OCT_Bhopal-0052CC?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aimlcluboct.in)
 [![Projects: Active](https://img.shields.io/badge/Status-Active_Development-brightgreen.svg?style=for-the-badge)](#)
 [![Roadmap Board](https://img.shields.io/badge/Roadmap-Live_Kanban_Board-blueviolet.svg?style=for-the-badge&logo=github)](https://github.com/orgs/AIMLCLUBOCT/projects/2)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-orange.svg?style=for-the-badge)](./CONTRIBUTING.md)
@@ -18,9 +19,12 @@
 
 ---
 
+> [!IMPORTANT]
+> **📢 Live Student Notice & Activity Board:** All active student project sprints, hackathons, and repository releases are broadcast live on our **[Live Activities Radar on aimlcluboct.github.io/#activities ↗](https://aimlcluboct.github.io/#activities)**.
+
 ## Overview
 
-The **Projects** repository serves as the central hub for practical software engineering and machine learning implementations developed within the AIML Club OCT ecosystem.
+The **Projects** repository serves as the central hub for practical software engineering and machine learning implementations developed within the **AI & Machine Learning Club (AIML Club OCT)**, **Oriental College of Technology, Bhopal**.
 
 We emphasize **production readiness**, **clean code architecture**, **reproducible environments**, and **open-source collaboration**. Every project in this repository includes complete source code, dependency specifications, evaluation metrics, and documentation.
 
