@@ -14,7 +14,7 @@
 
 ## 📂 Featured Beginner Blueprints
 
-### Blueprint 1: Student Academic Performance & Risk Predictor
+### Blueprint 1: [Student Academic Performance & Risk Predictor](./student-performance-predictor/)
 - **Problem:** Identify early academic risk factors to provide timely tutoring support.
 - **Tech Stack:** Python 3.10+, Pandas, Scikit-Learn, Streamlit.
 - **Dataset:** Open student performance dataset (e.g. Kaggle Student Performance in Exams).
@@ -24,10 +24,11 @@
   3. Comparison of Logistic Regression vs. Random Forest classifier.
   4. Streamlit web application allowing faculty to input student hours and preview risk category.
 
-### Blueprint 2: Phishing & Spam Message Classifier
+### Blueprint 2: [Phishing & Spam Message Classifier](./phishing-spam-detector/)
 - **Problem:** Classify SMS / Email messages as legitimate or fraudulent.
 - **Tech Stack:** Python, Scikit-Learn, TF-IDF Vectorizer, Multinomial Naive Bayes.
 - **Evaluation:** Precision, Recall, and Confusion Matrix analysis.
+- **Status:** Implemented! See [phishing-spam-detector/README.md](./phishing-spam-detector/README.md).
 
 ---
 
