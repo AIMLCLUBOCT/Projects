@@ -102,18 +102,36 @@ Message:    "URGENT! You won 1,000,000 cash prize. Click here now to claim your 
 Prediction: 🚨 SPAM / PHISHING (Confidence: 97.85%)
 ```
 
+## 🖥️ Interactive Web UI (Streamlit)
+
+A browser-based interface is also available for easier demos and testing.
+
+### Run the app
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+This will open a local web page where you can:
+- Paste any SMS, email, or message text
+- Try quick sample messages ("Test Scam Alert" / "Test College Club Message")
+- Click **Analyze Message** to see the prediction (Spam/Phishing vs Legitimate) with a confidence score
+
+---
+
 ---
 
 ## 💡 Student Challenges & Contributions
 
 Want to contribute and upgrade this project? Here are great ways to extend it:
 
-- [ ] **Challenge 1 (Streamlit Web App):** Create a `streamlit_app.py` with an interactive text area, confidence gauges, and highlighted keywords.
+- [X] **Challenge 1 (Streamlit Web App):** Create a `streamlit_app.py` with an interactive text area, confidence gauges, and highlighted keywords.
 - [ ] **Challenge 2 (Kaggle Dataset Ingestion):** Add an option to train on the real Kaggle [SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset) (5,574 messages).
 - [ ] **Challenge 3 (Model Serialization):** Use `joblib` or `pickle` to export the trained pipeline (`model.joblib` and `vectorizer.joblib`) for zero-latency production loading.
 - [ ] **Challenge 4 (Explainability):** Use top TF-IDF weights to display *why* a message was classified as spam (e.g. key contributing words like `urgent`, `free`, `claim`).
 
 ---
+
 
 ## 🤝 Contributing
 Read our [Contributing Guide](../../CONTRIBUTING.md) and open a pull request!
