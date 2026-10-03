@@ -15,12 +15,19 @@ Two-wheeler rider safety and laboratory/workshop helmet compliance require autom
 - **Inference:** OpenCV video capture stream with bounding boxes and compliance counter.
 
 ## 🚀 Quickstart
+
+### Option 1: Run Instantly (Zero Dependencies)
+```bash
+python detect.py
+```
+
+### Option 2: Live Webcam YOLO Inference
 ```bash
 pip install -r requirements.txt
 python detect.py
 ```
 
 ## 🤝 Open Contributions (Good First Issues)
-- [ ] Add an annotated dataset loader script (Roboflow integration).
-- [ ] Add real-time webcam inference loop with FPS counter.
-- [ ] Add audio alert when non-compliance is detected.
+- [ ] Add an annotated dataset loader script (Roboflow / Kaggle integration).
+- [ ] Implement audio alert buzzer sound when non-compliance is detected.
+- [ ] Export trained YOLO weights to ONNX format for browser-based WebAssembly inference.

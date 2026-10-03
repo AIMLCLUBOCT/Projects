@@ -43,30 +43,39 @@ Browse projects by difficulty level:
 
 ### 2. Tabular Student Performance & Risk Predictor
 - **Problem:** Identifying students who require early academic interventions before semester examinations.
-- **Solution:** Machine learning pipeline using scikit-learn ensemble models (Random Forests, Gradient Boosting) with automated feature importance visualization.
+- **Solution:** Machine learning pipeline using scikit-learn ensemble models (Random Forests, Logistic Regression) with pure-Python zero-dependency fallback and feature importance ranking.
 - **Domain:** Predictive Modeling & Educational Data Mining
 - **Tech Stack:** Python, Pandas, Scikit-Learn, Streamlit
 - **Difficulty:** Beginner
-- **Status:** 🟢 Blueprint Available
-- **Blueprint:** [`beginner/student-performance-predictor`](./beginner/student-performance-predictor/)
+- **Status:** 🟢 Implemented Starter
+- **Code & Docs:** [`beginner/student-performance-predictor`](./beginner/student-performance-predictor/)
 
-### 3. Real-Time Safety Equipment & Helmet Detection
+### 3. Phishing & Spam Message Classifier
+- **Problem:** Detecting fraudulent text, urgent banking scams, and phishing attempts targeted at university students and staff.
+- **Solution:** Natural Language Processing (NLP) pipeline comparing Multinomial Naive Bayes and Logistic Regression with TF-IDF n-gram vectorization and pure-Python zero-dependency fallback.
+- **Domain:** Natural Language Processing & Cyber AI
+- **Tech Stack:** Python, Scikit-Learn, TF-IDF Vectorizer, Multinomial Naive Bayes
+- **Difficulty:** Beginner
+- **Status:** 🟢 Implemented Starter
+- **Code & Docs:** [`beginner/phishing-spam-detector`](./beginner/phishing-spam-detector/)
+
+### 4. Real-Time Safety Equipment & Helmet Detection
 - **Problem:** Ensuring workplace and two-wheeler safety compliance on campus grounds.
-- **Solution:** Real-time computer vision pipeline utilizing YOLO object detection to identify helmets and safety gear from video streams.
+- **Solution:** Real-time computer vision pipeline utilizing YOLO object detection to identify helmets and safety gear from video streams, with educational IoU simulation.
 - **Domain:** Computer Vision & Edge AI
 - **Tech Stack:** Python, OpenCV, Ultralytics YOLO, PyTorch
 - **Difficulty:** Intermediate
-- **Status:** 🟢 Blueprint Available
-- **Blueprint:** [`intermediate/safety-helmet-detector`](./intermediate/safety-helmet-detector/)
+- **Status:** 🟢 Implemented Starter
+- **Code & Docs:** [`intermediate/safety-helmet-detector`](./intermediate/safety-helmet-detector/)
 
-### 4. Campus Ordinance & Syllabus RAG Assistant
+### 5. Campus Ordinance & Syllabus RAG Assistant
 - **Problem:** Navigating dense 100+ page university ordinances, grading criteria, and semester course catalogs is time-consuming for students.
-- **Solution:** Retrieval-Augmented Generation (RAG) assistant that indexes official college PDFs into a local vector database to provide cited answers.
+- **Solution:** Retrieval-Augmented Generation (RAG) assistant that indexes official college PDFs and ordinances into a vector search index to provide verified answers with citations.
 - **Domain:** Generative AI & Natural Language Processing
-- **Tech Stack:** Python, LangChain, ChromaDB, Hugging Face Embeddings, Streamlit
+- **Tech Stack:** Python, Cosine Similarity Vector Index, LangChain / ChromaDB
 - **Difficulty:** Advanced
-- **Status:** 🟢 Blueprint Available
-- **Blueprint:** [`advanced/campus-rag-assistant`](./advanced/campus-rag-assistant/)
+- **Status:** 🟢 Implemented Starter
+- **Code & Docs:** [`advanced/campus-rag-assistant`](./advanced/campus-rag-assistant/)
 
 ---
 
@@ -98,9 +107,17 @@ Have you built an interesting AI/ML project during a college hackathon, club wor
 3. Ensure your project directory contains a clean `README.md`, `requirements.txt`, and clear setup instructions.
 4. Open a Pull Request for review by the technical maintainers.
 
-> 💬 **Want feedback first?** You can share your project demo, link, or prototype directly in our [**Student Project Showcase Discussion Panel**](https://github.com/AIMLCLUBOCT/Projects/discussions/3) to get feedback from club seniors!
+### 🎯 Active Starter Tasks (Good First Issues):
+Looking for something concrete to work on? Grab one of our open contributor tasks:
+- 🚀 **[Issue #7: Streamlit Web UI for Phishing & Spam Detector](https://github.com/AIMLCLUBOCT/Projects/issues/7)** (Beginner NLP & Web)
+- 📊 **[Issue #8: Student Feedback Sentiment Analyzer](https://github.com/AIMLCLUBOCT/Projects/issues/8)** (Beginner Text Analytics & EDA)
+- 📈 **[Issue #8 in learning_resources: Decision Boundary Visualization Tool](https://github.com/AIMLCLUBOCT/learning_resources/issues/8)** (Matplotlib & Classification)
+
+> 💬 **Want feedback first?** You can share your project demo, link, or prototype directly in our [**Student Project Showcase Discussion Panel**](https://github.com/AIMLCLUBOCT/Projects/discussions/3) or [**Club-wide Showcase**](https://github.com/AIMLCLUBOCT/learning_resources/discussions/9) to get feedback from club seniors!
 >
 > 🌐 **Frontier Engineering Discussion:** Brainstorm architectures on our [**Autonomous Multi-Agent Swarms & Local Edge AI Forum ↗**](https://github.com/AIMLCLUBOCT/Projects/discussions/4)!
+>
+> 💼 **Career & Portfolio Advice:** Learn how to present your GitHub projects on resumes in our [**Career & Portfolio Hub ↗**](https://github.com/AIMLCLUBOCT/learning_resources/discussions/10)!
 
 ---
 

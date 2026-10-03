@@ -16,12 +16,19 @@ Students often struggle to find answers buried in 100+ page university grading s
 - **Generation:** Local Ollama (Llama 3 / Mistral) or cloud LLM APIs with citation sources.
 
 ## 🚀 Quickstart
+
+### Option 1: Run Instantly (Zero Dependencies)
+```bash
+python rag_pipeline.py
+```
+
+### Option 2: Full Vector DB & Embeddings Environment
 ```bash
 pip install -r requirements.txt
 python rag_pipeline.py
 ```
 
 ## 🤝 Open Contributions (Good First Issues)
-- [ ] Add PDF ingestion script using PyPDF or LangChain PDFLoader.
+- [ ] Add PDF ingestion script using PyPDF or LangChain PDFLoader to ingest official RGPV/OCT PDFs.
 - [ ] Implement a Streamlit chat UI with chat history.
-- [ ] Add source citation display showing exact page numbers.
+- [ ] Add source citation display showing exact page numbers and PDF links.

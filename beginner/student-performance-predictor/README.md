@@ -13,10 +13,18 @@ Early identification of students struggling with coursework is critical for time
 
 ## 💡 Solution Architecture
 - **Data Features:** Attendance percentage, internal mid-semester assessments, assignment submission rates, and weekly self-study logs.
-- **Model:** Random Forest Classifier & Gradient Boosting (scikit-learn).
-- **Target:** Academic Risk Flag (`0` = On Track, `1` = At Risk).
+- **Model:** Random Forest Classifier & Logistic Regression (scikit-learn) with pure-Python educational heuristic fallback.
+- **Target:** Academic Risk Flag (`0` = On Track / Good Standing, `1` = At Risk / Needs Tutoring Intervention).
+- **Zero-Dependency Ready:** Runs instantly using pure standard library Python, or expands to scikit-learn when dependencies are installed.
 
 ## 🚀 Quickstart
+
+### Option 1: Run Instantly (Zero Dependencies)
+```bash
+python train_and_predict.py
+```
+
+### Option 2: Full Scikit-Learn Environment
 ```bash
 python -m venv .venv
 # Windows: .venv\Scripts\activate
@@ -28,5 +36,5 @@ python train_and_predict.py
 
 ## 🤝 Open Contributions (Good First Issues)
 - [ ] Add a Streamlit web UI to input student metrics interactively.
-- [ ] Implement SHAP or Feature Importance visualization.
-- [ ] Ingest real anonymized benchmark datasets.
+- [ ] Implement SHAP or interactive Feature Importance visualization.
+- [ ] Connect with MySQL or SQLite to ingest real anonymized college database records.
