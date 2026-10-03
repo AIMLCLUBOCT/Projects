@@ -1,11 +1,20 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=0052CC,8A2BE2,00F5FF&height=230&section=header&text=AIML%20Projects%20Hub&fontSize=46&fontColor=ffffff&animation=fadeIn" alt="Projects Hub Header" width="100%"/>
+
 # 🚀 AIML Club OCT Projects Hub
 
-> Central showcase of artificial intelligence, machine learning, computer vision, natural language processing, and generative AI projects built by students, alumni, and open-source contributors of **AIML Club – Oriental College of Technology, Bhopal**.
+<img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=750&lines=Production+AI%2FML+Starters+%E2%80%A2+Computer+Vision+%E2%80%A2+NLP+%E2%80%A2+RAG;Zero-Dependency+Execution+Modes+%E2%80%A2+Open+Source+Contributions;Student+Showcases+%E2%80%A2+Applied+Research+%E2%80%A2+Full-Stack+AI" alt="Typing Tagline"/>
 
-[![AIML Club OCT](https://img.shields.io/badge/AIML_Club-OCT_Bhopal-0052CC?style=flat-square)](https://aimlcluboct.in)
-[![Projects: Active](https://img.shields.io/badge/Status-Active_Development-brightgreen.svg?style=flat-square)](#)
-[![Roadmap Board](https://img.shields.io/badge/Roadmap-Live_Kanban_Board-blueviolet.svg?style=flat-square)](https://github.com/orgs/AIMLCLUBOCT/projects/2)
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-orange.svg?style=flat-square)](./CONTRIBUTING.md)
+<br/><br/>
+
+[![Live Web Portal](https://img.shields.io/badge/Web_Portal-aimlcluboct.github.io-00F5FF?style=for-the-badge&logo=githubpages&logoColor=black)](https://aimlcluboct.github.io/#projects)
+[![AIML Club OCT](https://img.shields.io/badge/AIML_Club-OCT_Bhopal-0052CC?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aimlcluboct.in)
+[![Projects: Active](https://img.shields.io/badge/Status-Active_Development-brightgreen.svg?style=for-the-badge)](#)
+[![Roadmap Board](https://img.shields.io/badge/Roadmap-Live_Kanban_Board-blueviolet.svg?style=for-the-badge&logo=github)](https://github.com/orgs/AIMLCLUBOCT/projects/2)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-orange.svg?style=for-the-badge)](./CONTRIBUTING.md)
+
+</div>
 
 ---
 
@@ -127,3 +136,9 @@ Looking for something concrete to work on? Grab one of our open contributor task
 - **Digital Hub & Socials:** [social.aimlcluboct.in](https://social.aimlcluboct.in)
 - **Share Ideas & Feedback:** [voice.aimlcluboct.in](https://voice.aimlcluboct.in)
 - **Email:** [aimlcluboct@gmail.com](mailto:aimlcluboct@gmail.com)
+
+<br/>
+<div align="center">
+<sub>© 2026 AI & Machine Learning Club – Oriental College of Technology, Bhopal.</sub><br/><br/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=0052CC,8A2BE2,00F5FF&height=100&section=footer" width="100%"/>
+</div>
