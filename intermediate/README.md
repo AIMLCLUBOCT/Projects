@@ -22,7 +22,17 @@
   3. OpenCV video capture stream with bounding boxes and confidence score overlay.
 - **Status:** Implemented! See [safety-helmet-detector/README.md](./safety-helmet-detector/README.md).
 
-### Blueprint 2: Multilingual Support Ticket Routing Engine
+### Blueprint 2: [Student Feedback Sentiment Analyzer](./student-feedback-sentiment-analyzer/)
+- **Problem:** Analyze multi-class course and workshop feedback (Positive / Neutral / Negative) with clause-level aspect extraction and mixed-sentiment handling.
+- **Tech Stack:** Python, Scikit-Learn, Pandas, NumPy, Joblib.
+- **Architecture:**
+  1. Multi-model benchmarking (Logistic Regression, Linear SVC, Complement Naive Bayes, Soft Voting Ensemble) with stratified cross-validation.
+  2. Realistic evaluation across in-distribution, unseen phrasing, and hand-written gold test sets.
+  3. Clause-level Aspect-Based Sentiment Analysis (ABSA) covering `lectures`, `labs`, `assignments`, `instructor`, `exams`, `materials`, and `pace`.
+  4. Interactive CLI inference loop and model serialization (`--save` / `--load`).
+- **Status:** Implemented! See [student-feedback-sentiment-analyzer/README.md](./student-feedback-sentiment-analyzer/README.md).
+
+### Blueprint 3: Multilingual Support Ticket Routing Engine
 - **Problem:** Route incoming student grievance and query tickets to appropriate college departments automatically.
 - **Tech Stack:** Python, Hugging Face Transformers, DistilBERT, FastAPI.
 - **Architecture:**
@@ -30,7 +40,7 @@
   2. FastAPI `/predict` endpoint returning category and probability scores.
   3. Dockerfile for containerized deployment.
 
-### Blueprint 3: Real-Time Hand Gesture Controller & Occlusion Robustness Benchmark
+### Blueprint 4: Real-Time Hand Gesture Controller & Occlusion Robustness Benchmark
 - **Problem:** Build a contact-free gesture controller (e.g. presentation slide flipper, volume controller) and benchmark tracking stability under 0%–60% synthetic partial occlusions.
 - **Tech Stack:** Python, OpenCV, Google MediaPipe, NumPy, Scikit-Learn.
 - **Architecture:**
