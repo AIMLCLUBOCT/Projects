@@ -65,23 +65,32 @@ Browse projects by difficulty level:
 
 ### 3. Phishing & Spam Message Classifier
 - **Problem:** Detecting fraudulent text, urgent banking scams, and phishing attempts targeted at university students and staff.
-- **Solution:** Natural Language Processing (NLP) pipeline comparing Multinomial Naive Bayes and Logistic Regression with TF-IDF n-gram vectorization and pure-Python zero-dependency fallback.
+- **Solution:** Natural Language Processing (NLP) pipeline comparing Multinomial Naive Bayes and Logistic Regression with TF-IDF n-gram vectorization, pure-Python zero-dependency fallback, and an **interactive Streamlit Web UI**.
 - **Domain:** Natural Language Processing & Cyber AI
-- **Tech Stack:** Python, Scikit-Learn, TF-IDF Vectorizer, Multinomial Naive Bayes
+- **Tech Stack:** Python, Streamlit, Scikit-Learn, TF-IDF Vectorizer, Multinomial Naive Bayes
 - **Difficulty:** Beginner
-- **Status:** 🟢 Implemented Starter
+- **Status:** 🟢 Implemented Starter & Web Demo
 - **Code & Docs:** [`beginner/phishing-spam-detector`](./beginner/phishing-spam-detector/)
 
-### 4. Real-Time Safety Equipment & Helmet Detection
+### 4. Student Feedback Sentiment Analyzer
+- **Problem:** Analyzing multi-class student feedback across diverse course components with mixed sentiments.
+- **Solution:** NLP classification engine benchmarked across Logistic Regression, Linear SVC, Complement NB, and soft voting ensembles, paired with clause-level Aspect-Based Sentiment Analysis (ABSA) for `lectures`, `labs`, `assignments`, `exams`, `materials`, and `pace`. Includes interactive CLI and `--save`/`--load` persistence.
+- **Domain:** Natural Language Processing & Educational Analytics
+- **Tech Stack:** Python, Scikit-Learn, Pandas, NumPy, Joblib
+- **Difficulty:** Intermediate
+- **Status:** 🟢 Implemented Starter
+- **Code & Docs:** [`intermediate/student-feedback-sentiment-analyzer`](./intermediate/student-feedback-sentiment-analyzer/)
+
+### 5. Real-Time Safety Equipment & Helmet Detection
 - **Problem:** Ensuring workplace and two-wheeler safety compliance on campus grounds.
-- **Solution:** Real-time computer vision pipeline utilizing YOLO object detection to identify helmets and safety gear from video streams, with educational IoU simulation.
+- **Solution:** Real-time computer vision pipeline utilizing YOLO object detection to identify helmets and safety gear from video streams, with educational IoU simulation and webcam HUD counters.
 - **Domain:** Computer Vision & Edge AI
 - **Tech Stack:** Python, OpenCV, Ultralytics YOLO, PyTorch
 - **Difficulty:** Intermediate
 - **Status:** 🟢 Implemented Starter
 - **Code & Docs:** [`intermediate/safety-helmet-detector`](./intermediate/safety-helmet-detector/)
 
-### 5. Campus Ordinance & Syllabus RAG Assistant
+### 6. Campus Ordinance & Syllabus RAG Assistant
 - **Problem:** Navigating dense 100+ page university ordinances, grading criteria, and semester course catalogs is time-consuming for students.
 - **Solution:** Retrieval-Augmented Generation (RAG) assistant that indexes official college PDFs and ordinances into a vector search index to provide verified answers with citations.
 - **Domain:** Generative AI & Natural Language Processing
